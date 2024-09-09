@@ -25,7 +25,7 @@ while True:
         else:
             print('você perdeuuu')
 
-    if not input('quer continuar? (s/n)').lower() == 's':
+    if not input('quer continuar? (s/n)').lower() == 'n':
         jogando = False
 
 print('obrigado por jogar!')
