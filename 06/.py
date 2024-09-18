@@ -4,15 +4,15 @@ num2 = float(input("Insira o segundo numero: "))
 
 if operadores == '+':
     resultado = num1 + num2 
-    print(f'O resultado da soma foi: {resultado}')
+    print(f'O resultado da soma foi: {round(resultado, 2)}')
 elif operadores == '-':
     resultado = num1 + num2 
-    print(f'O resultado da subtração foi: {resultado}')
+    print(f'O resultado da subtração foi: {round(resultado, 2)}')
 elif operadores == '/':
     resultado = num1 + num2 
-    print(f'O resultado da divisão foi: {resultado}')
+    print(f'O resultado da divisão foi: {round(resultado, 2)}')
 elif operadores == '*':
     resultado = num1 + num2 
-    print(f'O resultado da multiplicação foi: {resultado}')
+    print(f'O resultado da multiplicação foi: {round(resultado, 2)}')
 else:
     print('opção invalida! os operadores são: + - / * ')
